@@ -6,18 +6,20 @@ Convert English contractions to complete words.
 
 Uses the word list from [https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions](https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions).
 
+Adapted from the unmaintained `contractions` package by JamesHight.
+
 ---
 
 
 ````bash
-npm install contractions
+npm install expand-contractions
 ````
 
 ---
 
 
 ````javascript
-var contractions = require('contractions');
+var contractions = require('expand-contractions');
 
 console.log(contractions.expand("I don't know who ya'll are."));
 // Outputs: I do not know who you all are.
@@ -28,14 +30,13 @@ console.log(contractions.contract("You all will have not seen this."));
 
 ---
 
-
 You can also use your own list of contractions / strings.
 
 Note: Longer strings take precedent over short strings.
 
 
 ````javascript
-var Contractions = require('contractions').Contractions;
+var Contractions = require('expand-contractions').Contractions;
 
 var contractions = new Contractions({
 	'asap': 'as soon as possible', // only lower case characters should be used in the list
