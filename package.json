@@ -1,13 +1,13 @@
 {
-  "name": "contractions",
-  "version": "0.0.7",
+  "name": "expand-contractions",
+  "version": "1.0.0",
   "licenses": [
     {
       "type": "Apache 2.0",
-      "url": "https://github.com/JamesHight/node-contractions/blob/master/LICENSE"
+      "url": "https://github.com/catcher-in-the-try/expand-contractions/blob/master/LICENSE"
     }
   ],
-  "author": "James Hight",
+  "author": "Anton Ivanov",
   "description": "Convert word contractions such as I'm to I am and don't to do not.",
   "keywords": [
     "contractions",
@@ -16,10 +16,10 @@
     "grammar",
     "clipping"
   ],
-  "homepage": "https://github.com/JamesHight/node-contractions#readme",
+  "homepage": "https://github.com/catcher-in-the-try/expand-contractions#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:JamesHight/node-contractions.git"
+    "url": "git+ssh://git@github.com:catcher-in-the-try/expand-contractions.git"
   },
   "main": "./lib/contractions.js",
   "scripts": {
