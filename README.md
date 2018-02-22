@@ -6,7 +6,7 @@ Convert English contractions to complete words.
 
 Uses the word list from [https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions](https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions).
 
-Adapted from the unmaintained `contractions` package by JamesHight.
+Adapted from the unmaintained `contractions` package by JamesHight. This fixes an issue in the original package when the words like "super" were changed into "what is uper", because "sup" is replaced with "what is up".
 
 ---
 
